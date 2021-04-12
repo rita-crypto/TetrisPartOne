@@ -1,7 +1,7 @@
 /*
  * This is the class that displays the game state and allows
  * the user to enter moves to the game,
- * THe critical components are paintComponent and interpret move
+ * THe critical components are paintComponent and process move
  */
 
 /*
@@ -20,7 +20,7 @@ public class TetrisDisplay extends JPanel
     private TetrisGame game;
     private int start_x = 20;
     private int start_y = 20;
-    private int cell_size = 40;
+    private int cell_size = 25;
 
     public TetrisDisplay(TetrisGame gam)
     {

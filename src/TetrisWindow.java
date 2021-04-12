@@ -16,8 +16,8 @@ import javax.swing.*;
 
 public class TetrisWindow extends JFrame
 {
-    private int win_width = 530;
-    private int win_height = 880;
+    private int win_width = 350;
+    private int win_height = 575;
 
     private TetrisDisplay display;
     private TetrisGame game;
