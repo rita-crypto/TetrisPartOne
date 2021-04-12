@@ -24,7 +24,22 @@ public class TetrisGame
         background = new int[row][col];
     }
 
-    public void initBoard()
+    public int fetchPosition(int row, int col)
+    {
+        return background[row][col];
+    }
+
+    public int fetchRows()
+    {
+        return background.length;
+    }
+
+    public int fetchCols()
+    {
+        return background[0].length;
+    }
+
+    public void initBoard(int rows, int cols)
     {
 
     }
