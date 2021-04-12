@@ -1,7 +1,7 @@
 /*
  * This is the class that displays the game state and allows
  * the user to enter moves to the game,
- * THe critical components are paintComponent and interpret move
+ * THe critical components are paintComponent and process move
  */
 
 /*
