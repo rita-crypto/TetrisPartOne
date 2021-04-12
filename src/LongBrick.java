@@ -14,5 +14,5 @@ public class LongBrick {
 
     private int[][] board;
 
-    
+
 }
